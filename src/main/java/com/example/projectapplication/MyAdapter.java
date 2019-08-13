@@ -95,7 +95,7 @@ public class MyAdapter extends ArrayAdapter<String> implements View.OnClickListe
     private void setAlarm(Calendar targetCal) {
 
 
-        Toast.makeText(mContext, "Alarm is set at" + targetCal.getTime(),Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Alarm is set at now" + targetCal.getTime(),Toast.LENGTH_LONG).show();
 
         Intent intent = new Intent(mContext, AlarmReceiver.class);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(mContext, 1, intent, 0);

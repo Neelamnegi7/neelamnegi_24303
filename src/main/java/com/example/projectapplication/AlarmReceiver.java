@@ -13,7 +13,7 @@ public class AlarmReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        showNotification(context, "wake up!!!");
+        showNotification(context, "wake up its too late!!!");
     }
 
     private void showNotification(Context context, String message)
@@ -26,9 +26,9 @@ public class AlarmReceiver extends BroadcastReceiver {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context.getApplicationContext())
                 .setSmallIcon(R.mipmap.ic_launcher_round)
                 .setTicker(message)
-                .setContentTitle("You havdhfjhdfgjhr")
+                .setContentTitle("You are getting late")
                 .setContentText(message)
-                .addAction(R.mipmap.ic_launcher_round, "Time is up", pendingIntent)
+                .addAction(R.mipmap.ic_launcher_round, " Time is up you have to wake ", pendingIntent)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
 
