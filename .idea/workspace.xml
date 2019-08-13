@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23a9e8dc-99ee-4f3e-851c-f99c40c29780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectapplication/AlarmReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectapplication/AlarmReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectapplication/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectapplication/MyAdapter.java" afterDir="false" />
-    </list>
+    <list default="true" id="23a9e8dc-99ee-4f3e-851c-f99c40c29780" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
